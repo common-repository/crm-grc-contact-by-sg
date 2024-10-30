@@ -1,0 +1,17 @@
+{
+    "name": "sgendt/crm-grc-contact",
+    "description": "A plugin that connect form with CRM GRC Contact",
+    "type": "project",
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "authors": [
+        {
+            "name": "Sebastien GENDT",
+            "email": "sebastien@gendt.fr"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"SGPLUGIN\\": "Plugin/"}
+    }
+}
